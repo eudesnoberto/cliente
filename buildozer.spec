@@ -35,7 +35,7 @@ version = 0.2
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy==2.3.0,kivymd==1.2.0,kivy_garden,google-api-python-client==2.140.0,requests==2.32.3,isodate==0.6.1,pillow,Pygments,pypiwin32,cython==0.29.36 
+requirements = python3,kivy==2.3.0,kivymd==1.2.0,kivy_garden,google-api-python-client==2.140.0,google-auth==2.33.0,google-auth-httplib2==0.2.0,googleapis-common-protos==1.63.2,requests==2.32.3,isodate==0.6.1,pillow,Pygments,pypiwin32,cython==0.29.36
 
 
 # (str) Custom source folders for requirements
