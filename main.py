@@ -17,7 +17,7 @@ import os
 
 YOUTUBE_API_KEY = 'AIzaSyCMYmuUsSoMwFv2G-mKm7-BA7-S-50NzR8'
 SERVER_URL = 'http://127.0.0.1:5000/get_videos'
-CACHE_FILE = 'assets/video_cache.json'
+CACHE_FILE = 'assets/assets/video_cache.json'
 
 class SearchTab(BoxLayout, MDTabsBase):
     def __init__(self, app, **kwargs):
