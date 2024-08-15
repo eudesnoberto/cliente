@@ -1,14 +1,12 @@
 [app]
 
 # (str) Title of your application
-title = EA Sound Music
+title = EASM
 
 # (str) Package name
-package.name = easoundmusic
-
+package.name = easm
 # (str) Package domain (needed for android/ios packaging)
-package.domain = com.eajukeboxsystem
-
+package.domain = com.easm
 # (str) Source code where the main.py live
 source.dir = .
 
@@ -29,7 +27,7 @@ source.include_exts = py,png,jpg,kv,atlas,json
 #source.exclude_patterns = license,images/*/*.jpg
 
 # (str) Application versioning (method 1)
-version = 1.0
+version = 0.2
 
 # (str) Application versioning (method 2)
 # version.regex = __version__ = ['"](.*)['"]
@@ -37,7 +35,7 @@ version = 1.0
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy==2.3.0,kivymd==1.2.0,google-api-python-client==2.140.0,requests==2.32.3,isodate==0.6.1,pillow 
+requirements = python3,kivy==2.3.0,kivymd==1.2.0,kivy_garden,google-api-python-client==2.140.0,requests==2.32.3,isodate==0.6.1,pillow,Pygments,pypiwin32,cython==0.29.36 
 
 
 # (str) Custom source folders for requirements
@@ -96,16 +94,16 @@ fullscreen = 1
 
 # (list) Permissions
 # (See https://python-for-android.readthedocs.io/en/latest/buildoptions/#build-options-1 for all the supported syntaxes and properties)
-android.permissions = INTERNET, WRITE_EXTERNAL_STORAGE, READ_EXTERNAL_STORAGE
+android.permissions = android.permission.INTERNET, WRITE_EXTERNAL_STORAGE, READ_EXTERNAL_STORAGE
 
 # (list) features (adds uses-feature -tags to manifest)
 #android.features = android.hardware.usb.host
 
 # (int) Target Android API, should be as high as possible.
-#android.api = 31
+android.api = 31
 
 # (int) Minimum API your APK / AAB will support.
-#android.minapi = 24
+android.minapi = 28
 
 # (int) Android SDK version to use
 #android.sdk = 20
